@@ -18,3 +18,36 @@ Note that I've included the background image for the page in this folder, "grey.
 Write your CSS rules below.
 
 */
+
+body {
+  background-image: url(grey.png);
+  text-align: center;
+}
+
+.board {
+  margin: 40px auto;
+  border-style: solid;
+  border-color: #007A5C;
+  border-width: 5px;
+  text-align: center;
+}
+
+.square {
+  height:70px;
+  width: 70px;
+  font-size: 45px;
+  color:orange;
+  text-shadow: 1px 1px 2px black;
+}
+
+.dark_square {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#74bc9e+0,007a5c+100 */
+background: #74bc9e; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #74bc9e 0%, #007a5c 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#74bc9e), color-stop(100%,#007a5c)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #74bc9e 0%,#007a5c 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #74bc9e 0%,#007a5c 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #74bc9e 0%,#007a5c 100%); /* IE10+ */
+background: linear-gradient(135deg,  #74bc9e 0%,#007a5c 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74bc9e', endColorstr='#007a5c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}

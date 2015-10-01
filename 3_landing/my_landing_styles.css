@@ -1,9 +1,31 @@
 /* This is here to give everything a red border, just to make it easier to see while developing. */
 * {
   box-sizing: border-box;
-
-  border: thin red solid;
+/*  border: thin red solid;
+*/}
+a {
+  font-style: normal;
 }
+
+.lbox {
+
+  background-color:#B8E6E6;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.75);
+  border-radius: 10px;
+}
+
+  A:Link {text-decoration: none; color:white;}
+  A:visited {text-decoration: none; color:white;}
+  A:active {text-decoration: none; color:white;}
+  A:hover {text-decoration: none; color:white;}
+
+
+
+
 /* You can turn it off if you want. (delete or comment it out) */
 
 /* Write your rules below */
